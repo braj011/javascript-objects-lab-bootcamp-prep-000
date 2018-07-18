@@ -1,5 +1,7 @@
 var recipes = {};
 
+// use generic object, key and value for the tests
+
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, { [key]: value })
 } 
