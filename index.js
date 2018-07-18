@@ -2,6 +2,10 @@ var recipes = {};
 
 // use generic object, key and value for the tests
 
+
+//We must use bracket notation if we want to access (or delete) values that belong to a variable key.
+
+
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, { [key]: value })
 } 
