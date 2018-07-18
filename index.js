@@ -5,6 +5,7 @@ var recipes = {};
 
 //We must use bracket notation if we want to access (or delete) values that belong to a variable key.
 
+// When we use dot notation the key is always taken as the literal string provided.
 
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, { [key]: value })
