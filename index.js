@@ -50,7 +50,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 
-
+/*
 
 describe('deleteFromObjectByKey(object, key)', function() {
     it('deletes `key` from a clone of object and returns the new object (it is non-destructive)', function() {
@@ -67,3 +67,4 @@ describe('deleteFromObjectByKey(object, key)', function() {
       expect(obj['prop']).toBe(1)
     })
   })
+  */
