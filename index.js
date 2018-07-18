@@ -76,7 +76,7 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object;
 }
   
-  
+/*
    describe('destructivelyDeleteFromObjectByKey(object, key)', function() {
     it('returns object without the delete key/value pair', function() {
       var obj = { prop: 1 }
@@ -91,4 +91,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 
       expect(obj['prop']).toBe(undefined)
     })
-  })
+  })   */
