@@ -2,9 +2,8 @@ var recipes = {};
 
 function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
-  
-  
-  return Object.assign({}, object, { [key]: value })
+
+  return Object.assign({}, object, { [key]: value });
 }
 
 // KEY BIT!! it('returns an object with the orignal key value pairs and the new key value pair', function() {
