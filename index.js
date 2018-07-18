@@ -72,7 +72,7 @@ describe('deleteFromObjectByKey(object, key)', function() {
   
   
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete object.key; 
+  delete object[key]; 
   return object;
 }
   
